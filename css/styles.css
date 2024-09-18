@@ -1,11 +1,11 @@
 body {
-    background-color: #EAD1BA;
+    background-color: #F5EFEB;
     position: relative;
     text-align: center;
 }
 
 h1 {
-    color: #CE7457; 
+    color: #2F4156; 
     margin-top: 40px;
     margin-bottom: 30px;
 }
@@ -13,14 +13,14 @@ h1 {
 input{
     font-style: italic;
     height: 25px;
-    background-color: #F5F5F5;
-    border: 1px solid #CE7457; 
-    color: #CE7457;
+    background-color: #F5EFEB;
+    border: 1px solid #2F4156; 
+    color: #2F4156;
 }
 
 #button {
-    background-color: #CE7457; 
-    color: #EAD1BA; 
+    background-color: #2F4156; 
+    color: #F5EFEB; 
     border: none;
     height: 25px;
     border-radius: 5px;
@@ -30,15 +30,17 @@ input{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+#button:hover{
+    background-color: #1a2d3e;
+}
 p{
     color: #333;
     font-size: large;
     font-weight: bold;
 }
 .values{
-    color: #CE7457;
+    color: #2F4156;
 }
 .results{
-    color: #CE7457;
+    color: #2F4156;
 }
